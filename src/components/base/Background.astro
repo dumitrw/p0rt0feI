@@ -71,21 +71,21 @@ const stars = Array.from({ length: numStars }).map(() => ({
     pointer-events: none;
   }
 
-  html::before {
+  html::after {
     background-image: url(/src/assets/backgrounds/bwca-day.png);
     opacity: 1;
   }
 
-  html.dark::before {
+  html.dark::after {
     opacity: 0;
   }
 
-  html::after {
+  html::before {
     background-image: url(/src/assets/backgrounds/bwca-night.png);
     opacity: 0;
   }
 
-  html.dark::after {
+  html.dark::before{
     opacity: 1;
   }
 </style>

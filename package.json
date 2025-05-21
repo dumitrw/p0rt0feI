@@ -1,8 +1,8 @@
 {
-  "name": "Astrogon",
+  "name": "Dima",
   "version": "1.0.0",
-  "description": "Template.",
-  "author": "Jane Doe",
+  "description": "dumitrw.ro",
+  "author": "Vasilica",
   "license": "MIT",
   "packageManager": "npm@10.8.2",
   "scripts": {
@@ -12,7 +12,7 @@
     "format": "prettier -w ./src"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.2.4",
+    "@astrojs/mdx": "^4.2.6",
     "@astrojs/react": "^4.2.4",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.0",

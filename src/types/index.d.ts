@@ -12,7 +12,7 @@ export type IndexCardsEntry = CollectionEntry<"indexCards">;
 export type PoetryEntry = CollectionEntry<"poetry">;
 export type PortfolioEntry = CollectionEntry<"portfolio">;
 export type RecipesEntry = CollectionEntry<"recipes">;
-export type TermsEntry = CollectionEntry<"terms">;
+export type TermsEntry = CollectionEntry<"info">;
 
 export type SearchableEntry =
   | AboutEntry

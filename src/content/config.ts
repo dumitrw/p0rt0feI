@@ -157,8 +157,8 @@ const recipes = defineCollection({
     }),
 });
 
-const terms = defineCollection({
-  loader: glob({ pattern: "-index.{md,mdx}", base: "./src/content/terms" }),
+const info = defineCollection({
+  loader: glob({ pattern: "-index.{md,mdx}", base: "./src/content/info" }),
   schema: searchable,
 });
 
@@ -173,5 +173,5 @@ export const collections = {
   poetry,
   portfolio,
   recipes,
-  terms,
+  info,
 };
